@@ -4014,7 +4014,7 @@ class $modify(BufEndLevelLayer, EndLevelLayer) {
             stats->setOpacity(170);
             stats->setAnchorPoint({ 1.f, 1.f });
             stats->setPosition({ win.width - 6.f, win.height - 16.f });
-            this->addChild(stats, 100);
+            
         }
         benchFinish();  // a completed run is the best recording there is
         benchFlush();
