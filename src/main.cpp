@@ -4006,7 +4006,7 @@ class $modify(BufEndLevelLayer, EndLevelLayer) {
         label->setOpacity(170);
         label->setAnchorPoint({ 1.f, 1.f });
         label->setPosition({ win.width - 6.f, win.height - 4.f });
-        this->addChild(label, 100);
+        
         if (attemptStats.saves > 0) {
             auto* stats = CCLabelBMFont::create(attemptSummary().c_str(), "bigFont.fnt");
             stats->setScale(0.28f);
